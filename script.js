@@ -27,4 +27,4 @@ myGame.botAction('respond', 'Send a text response to the user', {message: 'What 
   document.body.style.backgroundColor = `rgba(167, 228, 242, ${data.currentVariables.chillLevel.value / 50})`
 })
 
-// add a Zach bot for rude vibes?
+// add a Zach bot to combat rude vibes? conversely, maybe create a new bot that's rude and give users a choice of which to talk to?
