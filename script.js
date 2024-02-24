@@ -26,3 +26,5 @@ myGame.botAction('respond', 'Send a text response to the user', {message: 'What 
   document.getElementById('score').innerHTML = data.currentVariables.score.value
   document.body.style.backgroundColor = `rgba(167, 228, 242, ${data.currentVariables.chillLevel.value / 50})`
 })
+
+// add a Zach bot for rude vibes?
