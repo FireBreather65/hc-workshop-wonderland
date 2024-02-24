@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  /*background: url("bg-img.jpg") no-repeat center center fixed;*/
+}
+
+#input {
+  padding: 16px auto;
+  height: 120px;
+  width: 100%;
+  resize: vertical;
+}
