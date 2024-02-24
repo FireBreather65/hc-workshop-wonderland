@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Noto Sans Mono", monospace;
   /*background: url("bg-img.jpg") no-repeat center center fixed;*/
 }
 
