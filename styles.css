@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+textarea {
+  min-height: 5em;
+	width: 100%;
+	resize: vertical;
+}
+
+/* update CSS, change background to beach pic! */
