@@ -23,10 +23,12 @@ body {
 }
 
 textarea {
-  min-height: 5em;
 	width: 100%;
 	resize: vertical;
-	background-color: #FFDAD0;
+	background-color: var(--neutral-black, #000);
+	opacity: 75%;
+	color: var(--neutral-white, #FFF);
+	border-radius: 5px;
 }
 
 #conversation {
