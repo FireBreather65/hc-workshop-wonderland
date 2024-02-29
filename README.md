@@ -16,3 +16,4 @@
 ## What I learned
 
 ## Future plans
+<!-- maybe changing secret password after each game? -->

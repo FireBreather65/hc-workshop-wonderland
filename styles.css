@@ -1,16 +1,37 @@
 * {
 	box-sizing: border-box;
-  font-family: "Noto Sans Mono", monospace;
+  font-family: 'DM Sans', 'Inter', sans-serif;
+}
+
+:root {
+	--primary-pink: #FFD4C4;
+	--primary-purple: #4A4254;
+	--neutral-black: #000;
+	--neutral-white: #FFF;
+	--background-color: #FFFDF6;
 }
 
 html {
 	scroll-behavior: smooth;
 }
 
+body {
+	background: var(--background-color, #FFFDF6);
+	color: var(--neutral-black, #000);
+	max-width: 60%; /* see FCC notes to improve mobile responsivity! */
+	margin: auto;
+}
+
 textarea {
   min-height: 5em;
 	width: 100%;
 	resize: vertical;
+	background-color: #FFDAD0;
 }
 
-/* update CSS, change background to beach pic! */
+#conversation {
+	background: var(--primary-purple, #4A4254);
+	color: var(--neutral-white, #FFF);
+	/*padding: 12px;
+	border-radius: 5px;*/ /* the commented code will not work for some reason...it displays even if there's no message :( */
+}
