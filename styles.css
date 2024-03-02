@@ -30,10 +30,3 @@ textarea {
 	color: var(--neutral-white, #FFF);
 	border-radius: 5px;
 }
-
-#conversation {
-	background: var(--primary-purple, #4A4254);
-	color: var(--neutral-white, #FFF);
-	/*padding: 12px;
-	border-radius: 5px;*/ /* the commented code will not work for some reason...it displays even if there's no message :( */
-}
