@@ -18,5 +18,5 @@ document.getElementById('input').addEventListener('keyup', function(e) {
 })
 
 myGame.botAction('respond', 'Send a text response to the user', {message: 'What you want to say to the user'}, data => {
-  document.getElementById('conversation').innerHTML += '<p>' + data.message + '</p>'
+  document.getElementById('conversation').innerHTML += '<div>' + data.message + '</div>'
 })

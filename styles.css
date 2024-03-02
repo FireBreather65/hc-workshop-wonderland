@@ -30,3 +30,18 @@ textarea {
 	color: var(--neutral-white, #FFF);
 	border-radius: 5px;
 }
+
+#conversation p {
+	padding: 12px;
+	border-radius: 5px;
+	background: var(--primary-pink, #FFD4C4);
+	color: var(--neutral-black, #000);
+}
+
+#conversation div {
+	padding: 12px;
+	border-radius: 5px;
+	background: var(--primary-purple, #4A4254);
+	color: var(--neutral-white, #FFF);
+	margin: 16px auto;
+}
