@@ -19,7 +19,7 @@ body {
 	background: var(--background-color, #FFFDF6);
 	color: var(--neutral-black, #000);
 	max-width: 60%; /* see FCC notes to improve mobile responsivity! */
-	margin: auto;
+	margin: 80px auto;
 }
 
 textarea {
