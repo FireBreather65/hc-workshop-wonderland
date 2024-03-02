@@ -17,9 +17,6 @@ document.getElementById('input').addEventListener('keyup', function(e) {
   }
 })
 
-myGame.variable('score', 'Current score. Changes (positive and negatively) as the user does things.', 0)
-
 myGame.botAction('respond', 'Send a text response to the user', {message: 'What you want to say to the user'}, data => {
   document.getElementById('conversation').innerHTML += '<p>' + data.message + '</p>'
-  document.getElementById('score').innerHTML = data.currentVariables.score.value
 })

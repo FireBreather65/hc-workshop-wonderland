@@ -31,6 +31,11 @@ textarea {
 	border-radius: 5px;
 }
 
+#input {
+	background: var(--primary-pink, #FFD4C4);
+	color: var(--neutral-black, #000);
+}
+
 #conversation {
 	background: var(--primary-purple, #4A4254);
 	color: var(--neutral-white, #FFF);
