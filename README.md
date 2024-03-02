@@ -2,7 +2,7 @@
 
 [demo image and/or video, also for scrapbook]
 
-**[You can find the live website here.](???)**
+**[You can find the live website here.](https://firebreather65.github.io/hc-workshop-wonderland/)**
 
 ## Inspiration
 <!-- https://github.com/hackclub/wizard-orpheus -->
