@@ -11,12 +11,12 @@ document.getElementById('input').addEventListener('keyup', function(e) {
     let userInput = document.getElementById('input').value
     myGame.message(userInput)
 
-    document.getElementById('conversation').innerHTML += '<p>' + userInput + '</p>'
+    document.getElementById('conversation').innerHTML += '<p class="user">' + userInput + '</p>'
 
     document.getElementById('input').value = ''
   }
 })
 
 myGame.botAction('respond', 'Send a text response to the user', {message: 'What you want to say to the user'}, data => {
-  document.getElementById('conversation').innerHTML += '<div>' + data.message + '</div>'
+  document.getElementById('conversation').innerHTML += '<p class="bot">' + data.message + '</p>'
 })

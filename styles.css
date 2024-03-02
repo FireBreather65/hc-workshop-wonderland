@@ -31,14 +31,14 @@ textarea {
 	border-radius: 5px;
 }
 
-#conversation p {
+#conversation p.user {
 	padding: 12px;
 	border-radius: 5px;
 	background: var(--primary-pink, #FFD4C4);
 	color: var(--neutral-black, #000);
 }
 
-#conversation div {
+#conversation p.bot {
 	padding: 12px;
 	border-radius: 5px;
 	background: var(--primary-purple, #4A4254);
