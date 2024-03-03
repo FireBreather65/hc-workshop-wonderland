@@ -18,7 +18,8 @@ html {
 body {
 	background: var(--background-color, #FFFDF6);
 	color: var(--neutral-black, #000);
-	max-width: 60%; /* see FCC notes to improve mobile responsivity! */
+	min-width: 200px;
+	max-width: 60%;
 	margin: 80px auto;
 }
 
