@@ -38,10 +38,19 @@ textarea {
 	color: var(--neutral-black, #000);
 }
 
-#conversation p.bot {
+#conversation p.user::before {
+	content: 'You: ';
+	font-weight: 900;
+}
+
+#conversation p.troll {
 	padding: 12px;
 	border-radius: 5px;
 	background: var(--primary-purple, #4A4254);
 	color: var(--neutral-white, #FFF);
-	margin: 16px auto;
+}
+
+#conversation p.troll:before {
+	content: 'Troll: ';
+	font-weight: 900;
 }
