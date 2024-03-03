@@ -31,26 +31,50 @@ textarea {
 	border-radius: 5px;
 }
 
-#conversation p.user {
+.user {
 	padding: 12px;
 	border-radius: 5px;
 	background: var(--primary-pink, #FFD4C4);
 	color: var(--neutral-black, #000);
 }
 
-#conversation p.user::before {
+.user:before {
 	content: 'You: ';
 	font-weight: 900;
 }
 
-#conversation p.troll {
+.troll {
 	padding: 12px;
 	border-radius: 5px;
 	background: var(--primary-purple, #4A4254);
 	color: var(--neutral-white, #FFF);
 }
 
-#conversation p.troll:before {
+.troll:before {
 	content: 'Troll: ';
 	font-weight: 900;
+}
+
+.narrator:before {
+	content: 'Narrator: ';
+	font-weight: 900;
+}
+
+.restart {
+	padding: 8px;
+	background-color: var(--primary-pink, #FFD4C4);
+	color: var(--neutral-black, #000);
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.continue {
+	padding: 8px;
+	color: var(--neutral-black, #000);
+	background: none;
+	border-radius: 5px;
+	border: 1px solid var(--primary-pink, #FFD4C4);
+	margin: -12px 12px 12px 12px;
+	cursor: pointer;
 }

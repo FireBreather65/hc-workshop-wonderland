@@ -12,8 +12,9 @@
 ## Technologies
 
 ## Challenges and accomplishments
+<!-- faced some struggles coloring the messages to match sender -->
 
 ## What I learned
 
 ## Future plans
-<!-- maybe changing secret password after each game? -->
+<!-- restart + continue buttons, allow narrator to reprimand bad behavior, change secret password after each game? -->

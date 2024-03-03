@@ -6,6 +6,14 @@ myGame.createUserAction({
   howBotShouldHandle: 'Respond to the user'
 })
 
+function restartFunction(){
+  alert("Future implementation! For now reload the page to restart :)");
+}
+
+function continueFunction(){
+  alert("Future implementation! For now just keep talking to the troll :)");
+}
+
 document.getElementById('input').addEventListener('keyup', function(e) {
   if (e.code == 'Enter') {
     let userInput = document.getElementById('input').value
@@ -14,6 +22,15 @@ document.getElementById('input').addEventListener('keyup', function(e) {
     document.getElementById('conversation').innerHTML += '<p class="user">' + userInput + '</p>'
 
     document.getElementById('input').value = ''
+
+    const keyword = "orange";
+
+    if (userInput.includes(keyword)) {
+      document.getElementById('conversation').innerHTML += '<p class="narrator">' + 'Congratulations! You guessed the correct word. Would you like to restart or continue this conversation?' + '</p>'
+      document.getElementById('conversation').innerHTML += '<button class="restart" onclick="restartFunction()">' + 'Restart' + '</button>'
+      document.getElementById('conversation').innerHTML += '<button class="continue" onclick="continueFunction()">' + 'Continue' + '</button>'
+      //confetti
+    }
   }
 })
 
