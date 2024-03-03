@@ -9,6 +9,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
   <body>
 		<div id="conversation">
@@ -16,8 +17,10 @@
 		</div>
 
 		<textarea id="input" placeholder="Type a message..."></textarea>
+    <button class="send-button" onclick="sendFunction()">Send <span class="material-symbols-rounded">send</span></button>
 
 		<script src="https://wizard-orpheus.hackclub.dev/wizard_orpheus.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
@@ -28,7 +31,9 @@
     - add titles for you, troll ✔️
     - add narrator bot (intro) ✔️
     - finish: display message from narrator w/ restart, continue buttons ✔️
-    - add confetti 🎉
-    - fix input + add send button (instead of figma design, maybe full screen button w/ send + icon? after specific breakpoint)
+    - add confetti 🎉 ✔️
+    - fix input + add send button ✔️
+    - give send button functionality ✔️
     - refine responsivity!
+    - review code, write README.md
 -->

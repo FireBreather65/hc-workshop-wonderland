@@ -14,25 +14,27 @@ function continueFunction(){
   alert("Future implementation! For now just keep talking to the troll :)");
 }
 
-document.getElementById('input').addEventListener('keyup', function(e) {
-  if (e.code == 'Enter') {
-    let userInput = document.getElementById('input').value
-    myGame.message(userInput)
+function sendFunction() {
+  let userInput = document.getElementById('input').value
+  myGame.message(userInput)
 
-    document.getElementById('conversation').innerHTML += '<p class="user">' + userInput + '</p>'
+  document.getElementById('conversation').innerHTML += '<p class="user">' + userInput + '</p>'
 
-    document.getElementById('input').value = ''
+  document.getElementById('input').value = ''
 
-    const keyword = "orange";
+  const keyword = "orange";
 
-    if (userInput.includes(keyword)) {
-      document.getElementById('conversation').innerHTML += '<p class="narrator">' + 'Congratulations! You guessed the correct word. Would you like to restart or continue this conversation?' + '</p>'
-      document.getElementById('conversation').innerHTML += '<button class="restart" onclick="restartFunction()">' + 'Restart' + '</button>'
-      document.getElementById('conversation').innerHTML += '<button class="continue" onclick="continueFunction()">' + 'Continue' + '</button>'
-      //confetti
-    }
+  if (userInput.includes(keyword)) {
+    document.getElementById('conversation').innerHTML += '<p class="narrator">' + 'Congratulations! You guessed the correct word. Would you like to restart the game or continue this conversation?' + '</p>'
+    document.getElementById('conversation').innerHTML += '<button class="restart" onclick="restartFunction()">' + 'Restart' + '</button>'
+    document.getElementById('conversation').innerHTML += '<button class="continue" onclick="continueFunction()">' + 'Continue' + '</button>'
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 },
+    });
   }
-})
+}
 
 myGame.botAction('respond', 'Send a text response to the user', {message: 'What you want to say to the user'}, data => {
   document.getElementById('conversation').innerHTML += '<p class="troll">' + data.message + '</p>'

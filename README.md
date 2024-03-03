@@ -12,9 +12,9 @@
 ## Technologies
 
 ## Challenges and accomplishments
-<!-- faced some struggles coloring the messages to match sender -->
+<!-- faced a lot of challenges due to my inexperience with JS, most notably struggles coloring the messages to match sender -->
 
 ## What I learned
 
 ## Future plans
-<!-- restart + continue buttons, allow narrator to reprimand bad behavior, change secret password after each game? -->
+<!-- restart + continue buttons, allow all types of input (such as all uppercase), allow narrator to reprimand bad behavior, change secret password after each game? -->
