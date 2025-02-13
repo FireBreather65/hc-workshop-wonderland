@@ -2,7 +2,7 @@
 
 https://github.com/FireBreather65/hc-workshop-wonderland/assets/76709163/2e1dd167-e86d-46dc-ae42-af18eddab21d
 
-**[You can find the live website here.](https://firebreather65.github.io/hc-workshop-wonderland/)**
+**[You can find the live website here.](https://firebreather65.github.io/wizard-orpheus/)**
 
 ## Inspiration
 This project was originally created at a workshop during [Wonderland](https://wonderland.hackclub.com/), a 48-hour hackathon hosted in Boston. I decided to continue working on it after the workshop to improve the design and functionality, and this is the result 😁
